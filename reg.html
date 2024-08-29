@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    
+    <main>
+        <section class="form">
+            <h1 class="form__title">Sign up</h1>
+            
+            <form>
+                <label class="form-control__label">Full Name</label>
+                <div class="name-fields">
+                    <input type="text" class="form-control" placeholder="First Name" required>
+                    <input type="text" class="form-control" placeholder="Last Name" required>
+                </div>
+                <label class="form-control__label">Username</label>
+                <input type="text" class="form-control" placeholder="Username" required>
+                <label class="form-control__label">Email</label>
+                <div class="email-field">
+                    <input type="email" class="form-control" placeholder="Email" required>
+                </div>
+                <label class="form-control__label">Password</label>
+                <input type="password" class="form-control" placeholder="Password" minlength="4" required>
+                <label class="form-control__label">Birth-date</label>
+                <div class="birthday-gender">
+                    <select class="form-control" required>
+                        <option value="" disabled selected>Month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                    </select>
+                    <select class="form-control" placeholder="female" required>                     
+                        <option value="" disabled selected>Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+
+                    </select>
+
+                    <select class="form-control" required>
+                        <option value="" disabled selected>Year</option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+
+                    </select>
+                </div>
+                <label class="form-control__label ">Gender</label>
+                <div class="gender">
+                    <label>
+                        <input type="radio" name="gender" value="Female" required> Female
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="Male" required> Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="Prefer not to say" required> Prefer not to say
+                    </label>
+                </div>
+                
+                <button href="/reg.html"type="submit" class="form__submit" >Next</button>
+            </form>
+        </section>
+        
+        <section class= "image" >
+            <img src="img/home_animalshelter_slider_pic4.png" alt="Dog">
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    
+        <main>
+            <section class="form">
+                <h1 class="form__title">Welcome Back</h1>
+                <p class="form__description">Today is a new day. It's your day. Shape it. Sign in to start managing your projects.</p>
+
+                <form>
+                    <label class="form-control__label">Email</label>
+                    <div class="email-field">
+                        <input type="email" class="form-control" placeholder="example@email.com" required>
+                    </div>
+
+                    <label class="form-control__label">Password</label>
+                    <input type="password" class="form-control" placeholder="At least 8 characters" minlength="8" required>
+                    
+                    <div class="password__settings">
+                        <label class="password__settings__remember">
+                            <input type="checkbox">
+                            <span class="custom__checkbox">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />                            
+                            </span>
+                            Remember me
+                        </label>
+            
+                        <a href="#">Forgot Password?</a>
+                    </div>
+
+                    <button type="submit" class="form__submit">Sign in</button>
+                </form>
+            
+                <p class="form__footer">
+                    Don’t you have an account? <a href="/reg.html">Sign up</a>
+                </p>
+
+                <a href="#" class="trouble-signin">Trouble signing in?</a>
+            </section>
+            
+            <section class="image">
+                <img src="img/home_animalshelter_slider_pic4.png" alt="Dog">
+            </section>
+        </main>
+        <script src="main.js"></script>
+    </body>
+    </html>
